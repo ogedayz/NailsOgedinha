@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Juliana Ogeda Nail Designer — Ateliê de alta estética ungueal, alongamentos em gel, fibra de vidro e nail art em Campinas SP.">
+  <title>Juliana Ogeda | Nail Designer & Ateliê de Beleza</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Barra de Progresso de Leitura Superior -->
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <!-- Cabeçalho Fixo NAVEGAÇÃO -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="Juliana Ogeda Nail Designer">
+        <span class="logo-symbol">✦</span>
+        <span class="logo-text">
+          <strong>Juliana Ogeda</strong>
+          <small>NAIL DESIGNER & ESTÉTICA</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#home" class="active">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Menu & Preços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#localizacao">Localização</a>
+        <a href="#agendamento">Agendar</a>
+      </nav>
+
+      <a href="https://wa.me/5519999998888?text=Olá!%20Gostaria%20de%20agendar%20um%20horário" target="_blank" class="btn btn-gold header-button">
+        💬 WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SLIDER / CARROSSEL -->
+    <section class="hero" id="home">
+      <div class="hero-slider" id="hero-slider">
+        
+        <!-- Slide 1 -->
+        <article class="hero-slide is-active" style="background-image: url('https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=2000&q=90');">
+          <div class="hero-overlay"></div>
+          <div class="container hero-content">
+            <div class="hero-text">
+              <span class="eyebrow">BELEZA • ELEGÂNCIA • AUTOCUIDADO</span>
+              <h1>Suas unhas,<br><em>sua assinatura.</em></h1>
+              <p>Alongamentos, nail art e acabamento impecável com biossegurança hospitalar para transformar seu estilo.</p>
+              <div class="hero-buttons">
+                <a href="#agendamento" class="btn btn-gold btn-large">Agendar horário <span>→</span></a>
+                <a href="#servicos" class="btn btn-outline btn-large">Ver Tabela de Preços</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Slide 2 -->
+        <article class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1632345031435-8727fec88f2d?auto=format&fit=crop&w=2000&q=90');">
+          <div class="hero-overlay"></div>
+          <div class="container hero-content">
+            <div class="hero-text">
+              <span class="eyebrow">NAIL ART EXCLUSIVA</span>
+              <h2>Detalhes que<br><em>contam histórias.</em></h2>
+              <p>Designs artesanais personalizados com folha de ouro, efeito ombré e técnica de encapsulamento.</p>
+              <div class="hero-buttons">
+                <a href="#galeria" class="btn btn-gold btn-large">Explorar Trabalhos <span>→</span></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Slide 3 -->
+        <article class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=2000&q=90');">
+          <div class="hero-overlay"></div>
+          <div class="container hero-content">
+            <div class="hero-text">
+              <span class="eyebrow">EXPERIÊNCIA PREMIUM VIP</span>
+              <h2>Seu momento de<br><em>desacelerar.</em></h2>
+              <p>Espaço privativo em Campinas com cafés gourmet, ambiente aromatizado e poltronas relaxantes.</p>
+              <div class="hero-buttons">
+                <a href="#agendamento" class="btn btn-gold btn-large">Reservar Horário <span>→</span></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Controles do Slider -->
+        <div class="hero-controls">
+          <button id="hero-prev" type="button" aria-label="Slide anterior">←</button>
+          <div class="slider-dots" id="slider-dots"></div>
+          <button id="hero-next" type="button" aria-label="Próximo slide">→</button>
+        </div>
+
+        <div class="slider-progress">
+          <span id="slider-progress"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section about" id="sobre">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image">
+            <div class="image-frame">
+              <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1000&q=85" alt="Atendimento no Ateliê">
+            </div>
+            <div class="experience-badge">
+              <strong>100%</strong>
+              <span>Autoclave</span>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <span class="eyebrow dark">SOBRE O ATELIÊ</span>
+            <h2 class="section-title left">Cuidado refinado que começa<br><em>nos detalhes.</em></h2>
+            <p>O Ateliê Juliana Ogeda foi concebido para entregar mais do que estética: proporcionamos uma experiência de relaxamento e elevação da auto-estima com rigidez técnica.</p>
+            <p>Utilizamos géis europeus hipoalergênicos e esterilização hospitalar cirúrgica para proteger a saúde das suas lâminas naturais.</p>
+
+            <div class="about-features">
+              <div><span>✦</span> <strong>Géis Hipoalergênicos Importados</strong></div>
+              <div><span>✦</span> <strong>Limas e Pontas 100% Descartáveis</strong></div>
+              <div><span>✦</span> <strong>Esterilização em Autoclave Médica</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS & PREÇOS COM FLIP CARD 3D -->
+    <section class="section services" id="servicos">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow dark">TABELA DE SERVIÇOS</span>
+          <h2 class="section-title">Menu de Procedimentos<br><em>e Valores.</em></h2>
+          <p>Passe o mouse ou toque no card para ver detalhes e duração.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <article class="service-card" tabindex="0">
+            <div class="service-card-inner">
+              <div class="service-front">
+                <span class="service-number">01</span>
+                <div class="service-icon">✦</div>
+                <h3>Alongamento<br>em Gel</h3>
+                <p>Resistência e curvatura anatômica</p>
+                <div class="card-price-tag">R$ 200,00</div>
+                <span class="flip-hint">Girar card ↻</span>
+              </div>
+              <div class="service-back">
+                <span class="eyebrow">DETALHES</span>
+                <h3>Alongamento Gel</h3>
+                <p>Aplicação de gel construtor com alta aderência, durabilidade e acabamento ultra-brilhante.</p>
+
+                <ul class="service-specs">
+                  <li><span>⏱️ Duração:</span> 120 min</li>
+                  <li><span>💎 Manutenção:</span> a cada 25-30 dias</li>
+                  <li><span>💳 Preço:</span> R$ 200,00</li>
+                </ul>
+
+                <a href="#agendamento" class="text-link">Agendar serviço →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="service-card" tabindex="0">
+            <div class="service-card-inner">
+              <div class="service-front">
+                <span class="service-number">02</span>
+                <div class="service-icon">◇</div>
+                <h3>Fibra de<br>Vidro</h3>
+                <p>Leveza + acabamento hiper-natural</p>
+                <div class="card-price-tag">R$ 220,00</div>
+                <span class="flip-hint">Girar card ↻</span>
+              </div>
+              <div class="service-back">
+                <span class="eyebrow">DETALHES</span>
+                <h3>Fibra de Vidro</h3>
+                <p>Extensão com filamentos finíssimos de fibra de vidro para resultado leve e idêntico à unha natural.</p>
+
+                <ul class="service-specs">
+                  <li><span>⏱️ Duração:</span> 130 min</li>
+                  <li><span>💎 Manutenção:</span> a cada 30 dias</li>
+                  <li><span>💳 Preço:</span> R$ 220,00</li>
+                </ul>
+
+                <a href="#agendamento" class="text-link">Agendar serviço →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="service-card" tabindex="0">
+            <div class="service-card-inner">
+              <div class="service-front">
+                <span class="service-number">03</span>
+                <div class="service-icon">✧</div>
+                <h3>Nail Art<br>Exclusiva</h3>
+                <p>Encapsulados, folha de ouro e ombré</p>
+                <div class="card-price-tag">R$ 180,00</div>
+                <span class="flip-hint">Girar card ↻</span>
+              </div>
+              <div class="service-back">
+                <span class="eyebrow">DETALHES</span>
+                <h3>Nail Art Artisanal</h3>
+                <p>Criações artísticas pintadas à mão, francesinha sorriso perfeita e aplicação de cristais.</p>
+
+                <ul class="service-specs">
+                  <li><span>⏱️ Duração:</span> 90 min</li>
+                  <li><span>🎨 Estilo:</span> Personalizado</li>
+                  <li><span>💳 Preço:</span> R$ 180,00</li>
+                </ul>
+
+                <a href="#agendamento" class="text-link">Agendar serviço →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="service-card" tabindex="0">
+            <div class="service-card-inner">
+              <div class="service-front">
+                <span class="service-number">04</span>
+                <div class="service-icon">○</div>
+                <h3>Esmaltação<br>em Gel</h3>
+                <p>Brilho espelhado que não descasca</p>
+                <div class="card-price-tag">R$ 130,00</div>
+                <span class="flip-hint">Girar card ↻</span>
+              </div>
+              <div class="service-back">
+                <span class="eyebrow">DETALHES</span>
+                <h3>Esmaltação Gel</h3>
+                <p>Esmaltes em gel com secagem instantânea na câmara LED/UV e brilho vitrificado por 20 dias.</p>
+
+                <ul class="service-specs">
+                  <li><span>⏱️ Duração:</span> 75 min</li>
+                  <li><span>✨ Durabilidade:</span> 20 dias</li>
+                  <li><span>💳 Preço:</span> R$ 130,00</li>
+                </ul>
+
+                <a href="#agendamento" class="text-link">Agendar serviço →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIA DE TRABALHOS - NOVOS ESTILOS E IDEIAS -->
+    <section class="section gallery-section" id="galeria">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow dark">PORTFÓLIO & INSPIRAÇÕES</span>
+          <h2 class="section-title">Galeria de<br><em>Estilos & Tendências.</em></h2>
+          <p>Explore nossas criações exclusivas, combinações de cores e técnicas avançadas.</p>
+        </div>
+
+        <!-- Filtros -->
+        <div class="gallery-filters">
+          <button class="filter-btn active" data-filter="all" type="button">Todos os Estilos</button>
+          <button class="filter-btn" data-filter="gel" type="button">Gel & Alongamento</button>
+          <button class="filter-btn" data-filter="nailart" type="button">Nail Art & Encapsuladas</button>
+          <button class="filter-btn" data-filter="fibra" type="button">Fibra de Vidro</button>
+          <button class="filter-btn" data-filter="minimalista" type="button">Minimalistas & Chic</button>
+        </div>
+
+        <!-- Grid de Fotos com Novos Estilos -->
+        <div class="gallery-grid">
+          
+          <!-- Item 1: Destaque Gel Tortoise / Mármore -->
+          <button class="gallery-item gallery-large" data-category="gel" type="button">
+            <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1200&q=85" alt="Gel Mármore e Tartaruga">
+            <div class="gallery-overlay">
+              <div>
+                <strong>Efeito Mármore & Tartaruga</strong>
+                <small>Alongamento em Gel Premium</small>
+              </div>
+              <b>↗</b>
+            </div>
+          </button>
+
+          <!-- Item 2: Encapsulada Folha de Ouro -->
+          <button class="gallery-item" data-category="nailart" type="button">
+            <img src="https://images.unsplash.com/photo-1632345031435-8727fec88f2d?auto=format&fit=crop&w=900&q=85" alt="Encapsulada Folha de Ouro">
+            <div class="gallery-overlay">
+              <div>
+                <strong>Encapsulada Folha de Ouro</strong>
+                <small>Nail Art de Luxo 24k</small>
+              </div>
+              <b>↗</b>
+            </div>
+          </button>
+
+          <!-- Item 3: Gel Vermelho Clássico -->
+          <button class="gallery-item" data-category="gel" type="button">
+            <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=900&q=85" alt="Gel Vermelho Bordo">
+            <div class="gallery-overlay">
+              <div>
+                <strong>Vermelho Vinho Clássico</strong>
+                <small>Esmaltação em Gel</small>
+              </div>
+              <b>↗</b>
+            </div>
+          </button>
+
+          <!-- Item 4: Fibra de Vidro Natural -->
+          <button class="gallery-item" data-category="fibra" type="button">
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=85" alt="Fibra de Vidro Natural">
+            <div class="gallery-overlay">
+              <div>
+                <strong>Fibra de Vidro Slim</strong>
+                <small>Acabamento Hiper-Natural</small>
+              </div>
+              <b>↗</b>
+            </div>
+          </button>
+
+          <!-- Item 5: Babyboomer e Ombré -->
+          <button class="gallery-item gallery-wide" data-category="minimalista" type="button">
+            <img src="https://images.unsplash.com/photo-1610992015732-2449b76344bc?auto=format&fit=crop&w=1200&q=85" alt="Babyboomer e Ombré Elegante">
+            <div class="gallery-overlay">
+              <div>
+                <strong>Babyboomer & Ombré Gradiente</strong>
+                <small>Estilo Noiva & Atemporal</small>
+              </div>
+              <b>↗</b>
+            </div>
+          </button>
+
+          <!-- Item 6: Francesinha Sorriso Gold -->
+          <button class="gallery-item" data-category="nailart" type="button">
+            <img src="https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=900&q=85" alt="Francesinha Sorriso em Ouro">
+            <div class="gallery-overlay">
+              <div>
+                <strong>Francesinha Metallic Gold</strong>
+                <small>Linhas de Precisão</small>
+              </div>
+              <b>↗</b>
+            </div>
+          </button>
+
+          <!-- Item 7: Nude Minimalista Glossy -->
+          <button class="gallery-item" data-category="minimalista" type="button">
+            <img src="https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=900&q=85" alt="Nude Minimalista Glossy">
+            <div class="gallery-overlay">
+              <div>
+                <strong>Nude Rosado Glass</strong>
+                <small>Blindagem & Proteção</small>
+              </div>
+              <b>↗</b>
+            </div>
+          </button>
+
+          <!-- Item 8: Efeito Aveludado / Cat Eye -->
+          <button class="gallery-item gallery-wide" data-category="nailart" type="button">
+            <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=1200&q=85" alt="Efeito Aveludado Cat Eye">
+            <div class="gallery-overlay">
+              <div>
+                <strong>Efeito Magnético Cat Eye</strong>
+                <small>Brilho Aveludado Profundo</small>
+              </div>
+              <b>↗</b>
+            </div>
+          </button>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- LIGHTBOX MODAL -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" id="lightbox-close" type="button">×</button>
+      <button class="lightbox-arrow left" id="lightbox-prev" type="button">‹</button>
+      <figure>
+        <img id="lightbox-image" src="" alt="">
+        <figcaption id="lightbox-caption"></figcaption>
+      </figure>
+      <button class="lightbox-arrow right" id="lightbox-next" type="button">›</button>
+    </div>
+
+    <!-- LOCALIZAÇÃO CAMPINAS -->
+    <section class="section location-section" id="localizacao">
+      <div class="container">
+        <div class="location-grid">
+          <div class="location-info">
+            <span class="eyebrow dark">LOCALIZAÇÃO</span>
+            <h2 class="section-title left">Venha conhecer<br><em>nosso Ateliê.</em></h2>
+            <p>Atendimento exclusivo em área nobre de Campinas - SP com estrutura aconchegante e reservada.</p>
+
+            <div class="location-cards">
+              <div class="loc-card">
+                <span>📍</span>
+                <div>
+                  <strong>Endereço</strong>
+                  <p>Rua Dr. Fernão de Pompeu, 1354<br>Campinas - SP</p>
+                </div>
+              </div>
+
+              <div class="loc-card">
+                <span>🕒</span>
+                <div>
+                  <strong>Horário de Atendimento</strong>
+                  <p>Segunda a Sábado: 09h às 19h<br>(Atendimento com hora marcada)</p>
+                </div>
+              </div>
+
+              <div class="loc-card">
+                <span>☕</span>
+                <div>
+                  <strong>Comodidades</strong>
+                  <p>Fácil estacionamento no local, Wi-Fi, cafés e ambiente aromatizado.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="location-map">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.292150338167!2d-47.0601!3d-22.8988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c60000000000%3A0x0!2sRua%20Dr.%20Fern%C3%A3o%20de%20Pompeu%2C%201354%20-%20Campinas%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
+              width="100%" 
+              height="100%" 
+              style="border:0; border-radius: 20px; min-height: 380px;" 
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULÁRIO DE AGENDAMENTO -->
+    <section class="section booking" id="agendamento">
+      <div class="container">
+        <div class="booking-card">
+          <div class="booking-info">
+            <span class="eyebrow">RESERVE SEU HORÁRIO</span>
+            <h2>Pronta para agendar<br><em>seu momento?</em></h2>
+            <p>Preencha os campos para solicitar seu horário diretamente via WhatsApp.</p>
+
+            <div class="booking-perks">
+              <div>✓ Resposta rápida em horário comercial</div>
+              <div>✓ Vagas exclusivas por dia</div>
+              <div>✓ Confirmação simples no WhatsApp</div>
+            </div>
+          </div>
+
+          <form class="booking-form" id="form-agendamento">
+            <div class="form-grid">
+              <label class="form-field">
+                <span>Nome Completo *</span>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+              </label>
+
+              <label class="form-field">
+                <span>WhatsApp *</span>
+                <input type="tel" id="telefone" name="telefone" placeholder="(19) 99999-8888" required>
+              </label>
+
+              <label class="form-field">
+                <span>E-mail *</span>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+              </label>
+
+              <label class="form-field">
+                <span>Data Desejada *</span>
+                <input type="date" id="data" name="data" required>
+              </label>
+            </div>
+
+            <label class="form-field">
+              <span>Procedimento Escolhido *</span>
+              <select id="servico" name="servico" required>
+                <option value="">Selecione um serviço</option>
+                <option value="Alongamento em Gel (R$ 200,00)">Alongamento em Gel (R$ 200,00)</option>
+                <option value="Fibra de Vidro (R$ 220,00)">Fibra de Vidro (R$ 220,00)</option>
+                <option value="Nail Art Exclusiva (R$ 180,00)">Nail Art Exclusiva (R$ 180,00)</option>
+                <option value="Esmaltação em Gel (R$ 130,00)">Esmaltação em Gel (R$ 130,00)</option>
+              </select>
+            </label>
+
+            <button class="btn btn-gold btn-large submit-button" type="submit">
+              <span>Enviar via WhatsApp 💬</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-symbol">✦</span>
+          <span class="logo-text">
+            <strong style="color:white;">Juliana Ogeda</strong>
+            <small style="color:var(--gold);">NAIL DESIGNER</small>
+          </span>
+        </a>
+        <p>Ateliê especializado em estética avançada para unhas, biossegurança hospitalar, fibra de vidro e nail art em Campinas SP.</p>
+        <div class="footer-socials">
+          <a href="https://instagram.com" target="_blank">📸 Instagram</a>
+          <a href="https://wa.me/5519999998888" target="_blank">💬 WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h3>Navegação</h3>
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre o Ateliê</a>
+        <a href="#servicos">Menu & Preços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#localizacao">Localização</a>
+        <a href="#agendamento">Agendar Horário</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Atendimento</h3>
+        <p>📍 Rua Dr. Fernão de Pompeu, 1354<br>Campinas - SP</p>
+        <p>📱 (19) 99999-8888</p>
+        <p>✉️ contato@julianaogeda.com.br</p>
+        <p>🕒 Seg a Sáb: 09:00 - 19:00</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© 2026 Juliana Ogeda Nail Designer. Todos os direitos reservados.</span>
+      <span>Feito com cuidado ✦</span>
+    </div>
+  </footer>
+
+  <!-- BANNER COOKIES -->
+  <div class="cookie-banner" id="cookie-banner">
+    <div>
+      <strong>Privacidade e Cookies</strong>
+      <p>Utilizamos cookies essenciais para garantir a melhor experiência no nosso site.</p>
+    </div>
+    <button id="accept-cookies" type="button">Entendi</button>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="script.js"></script>
+  <script src="chatbot.js"></script>
+  <script>
+    initChatbot({
+      jsonUrl: 'minha-base-dados.json'
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+[
+  {
+    "pergunta": "Quais são os serviços, preços e tempos?",
+    "keywords": ["servico", "serviços", "preço", "preco", "valor", "valores", "quanto", "procedimento", "tabela"],
+    "resposta": "Confira nosso menu completo de procedimentos:\n\n• **Alongamento em Gel**: R$ 200,00 (~2h | Durabilidade: 25-30 dias)\n• **Fibra de Vidro**: R$ 220,00 (~2h10 | Durabilidade: 30 dias)\n• **Esmaltação em Gel**: R$ 130,00 (~1h15 | Durabilidade: 20 dias)\n• **Nail Art Exclusiva**: R$ 180,00 (~1h30)\n• **Manutenção de Alongamento**: R$ 130,00 (~1h30)\n• **Spa dos Pés com Hidratação**: R$ 110,00 (~1h)"
+  },
+  {
+    "pergunta": "Como faço para agendar um horário?",
+    "keywords": ["agendar", "agendamento", "marcar", "horario", "vaga", "reserva", "whatsapp"],
+    "resposta": "Você pode preencher o formulário no final da página ou nos enviar uma mensagem no WhatsApp: **(19) 99999-8888**. Confirmamos sua vaga rapidamente!"
+  },
+  {
+    "pergunta": "Qual é a localização e horário de funcionamento?",
+    "keywords": ["onde", "fica", "endereco", "localizacao", "horario", "funcionamento", "aberto", "mapa"],
+    "resposta": "📍 **Ateliê Juliana Ogeda**\nRua Dr. Fernão de Pompeu, 1354 - Campinas / SP.\n\n🕒 **Horários**:\nSegunda a Sábado: 09:00 às 19:00"
+  },
+  {
+    "pergunta": "Quais são as formas de pagamento aceitas?",
+    "keywords": ["pagamento", "pagar", "pix", "cartao", "credito", "debito", "parcelado"],
+    "resposta": "Aceitamos **PIX** (com desconto especial), **Cartão de Crédito** em até 3x sem juros, **Cartão de Débito** e **Dinheiro**."
+  },
+  {
+    "pergunta": "Qual a diferença entre Fibra de Vidro e Gel?",
+    "keywords": ["diferenca", "fibra", "gel", "qual e melhor", "comparar"],
+    "resposta": "A **Fibra de Vidro** utiliza filamentos finíssimos que oferecem um acabamento ultra-leve e hiper-natural. O **Alongamento em Gel** utiliza gel construtor focado em alta resistência contra impactos e curvatura perfeita."
+  }
+]
